@@ -1,2 +1,2 @@
-"This is my first project with Android Studio by JAVA programming language call SimpleApp."
+"This is my first project with Android Studio by JAVA programming language call SimpleApp." \n
 "SimpleApp is an mobile application for traverler want to book tours, trips to many places in the world." 

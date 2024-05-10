@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".Details">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/hcmc_tag"
+        android:scaleType="centerCrop"
+        android:id="@+id/bgr"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ho Chi Minh City Vietnam"
+        android:layout_below="@id/bgr"
+        android:textSize="45dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:fontFamily="@font/font"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Something about HCMC:"
+        android:textSize="35dp"
+        android:layout_marginTop="128dp"
+        android:layout_below="@id/bgr"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:fontFamily="@font/font"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bgr"
+        android:text="Vibrating with energy, innovation and traffic – lots of traffic – Ho Chi Minh City, formerly known as Saigon, is the economic heart of Vietnam and the main hub of the southern region. A freewheeling, cosmopolitan metropolis, HCMC's dynamic cityscape draws together old and new Vietnam in the most compact of spaces, representing the city’s past as well as its future."
+        android:layout_marginTop="190dp"
+        android:textSize="20dp"
+        android:id="@+id/des"
+        android:fontFamily="@font/font"/>
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_below="@id/bgr"
+        android:layout_marginTop="480dp"
+        android:text="Book this trip"
+        android:id="@+id/book"/>
+
+
+
+
+</RelativeLayout>

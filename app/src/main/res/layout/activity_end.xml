@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2"
+    tools:context=".End">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Journal diary"
+        android:fontFamily="@font/font"
+        android:textSize="55dp"
+        android:id="@+id/header1"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/jdia_prev_ui"
+        android:layout_below="@id/header1"
+        android:layout_centerInParent="true"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You have recently booked ->"
+        android:layout_marginTop="170dp"
+        android:textSize="30dp"
+        android:fontFamily="@font/font"
+        android:textColor="@color/black"/>
+
+    <ImageView
+        android:id="@+id/hor_img0"
+        android:layout_width="180dp"
+        android:layout_height="130dp"
+        android:layout_gravity="center"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="220dp"
+        android:src="@drawable/hcmc_tag" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="220dp"
+        android:fontFamily="@font/font"
+        android:id="@+id/placename0"
+        android:text="Ho Chi Minh City \nPrice: 400$ \nFrom 1/5/2023\nto    4/5/2023"
+        android:textSize="20dp"/>
+
+    <ImageView
+        android:id="@+id/hor_img1"
+        android:layout_width="180dp"
+        android:layout_height="130dp"
+        android:layout_gravity="center"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="400dp"
+        android:src="@drawable/gnpark" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="400dp"
+        android:fontFamily="@font/font"
+        android:id="@+id/placename"
+        android:text="Glacier National Park \nPrice: 700$ \nFrom 3/4/2023\nto    7/4/2023"
+        android:textSize="20dp"
+
+        />
+
+    <ImageView
+        android:id="@+id/hor_img2"
+        android:layout_width="180dp"
+        android:layout_height="130dp"
+        android:layout_gravity="center"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="580dp"
+        android:src="@drawable/japan_tag" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="580dp"
+        android:fontFamily="@font/font"
+        android:id="@+id/placename2"
+        android:text="Kyoto \nPrice: 800$ \nFrom 27/2/2023\nto    4/3/2023"
+        android:textSize="20dp"
+
+        />
+
+
+
+
+
+</RelativeLayout>

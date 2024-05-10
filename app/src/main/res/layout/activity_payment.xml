@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PaymentActivity1"
+    android:background="@drawable/bg2">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Complete your booking"
+        android:textSize="50dp"
+        android:fontFamily="@font/font"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:id="@+id/cpl"
+        />
+
+
+
+    <EditText
+        android:id="@+id/cusname"
+        android:layout_width="360dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/cpl"
+        android:drawableLeft="@drawable/baseline_account_circle_24"
+        android:drawablePadding="12dp"
+        android:hint="Name:"
+        android:layout_centerHorizontal="true"
+        android:textColorHint="@color/white"
+        android:backgroundTint="@color/white"/>
+
+    <EditText
+        android:id="@+id/cusemail"
+        android:layout_width="360dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/cusname"
+        android:drawableLeft="@drawable/baseline_account_circle_24"
+        android:drawablePadding="12dp"
+        android:hint="Email:"
+        android:layout_centerHorizontal="true"
+        android:textColorHint="@color/white"
+        android:backgroundTint="@color/white"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="From"
+        android:textSize="23dp"
+        android:layout_below="@id/cusemail"
+        android:fontFamily="@font/font"
+        android:textColor="@color/black"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/fro"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="To"
+        android:textSize="23dp"
+        android:layout_below="@id/date1"
+        android:fontFamily="@font/font"
+        android:textColor="@color/black"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/tt"/>
+
+    <EditText
+        android:id="@+id/date1"
+        android:layout_width="360dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/fro"
+        android:drawableLeft="@drawable/baseline_account_circle_24"
+        android:drawablePadding="12dp"
+        android:hint="Date:"
+        android:layout_centerHorizontal="true"
+        android:textColorHint="@color/white"
+        android:backgroundTint="@color/white"/>
+
+    <EditText
+        android:id="@+id/date2"
+        android:layout_width="360dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/tt"
+        android:drawableLeft="@drawable/baseline_account_circle_24"
+        android:drawablePadding="12dp"
+        android:hint="Date:"
+        android:layout_centerHorizontal="true"
+        android:textColorHint="@color/white"
+        android:backgroundTint="@color/white"/>
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:id="@+id/conf"
+        android:layout_below="@id/date2"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="#ff96c5"
+        android:text="Confirm"
+        android:textStyle="bold"
+        android:layout_marginTop="90dp"
+        />
+
+</RelativeLayout>

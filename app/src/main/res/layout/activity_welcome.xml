@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wellogre"
+    tools:context=".WelcomeActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/welcomelabel"
+        android:layout_marginTop="10dp"
+        android:textSize="60sp"
+        android:text="Welcome \nto\nYour Travellife"
+        android:textStyle="bold"
+        android:fontFamily="@font/font"
+        android:gravity="center"
+        android:textColor="#00ffff"/>
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/logo"
+        android:layout_above="@id/signinbtn0"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="200dp"/>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:id="@+id/signupbtn0"
+        android:layout_below="@id/welcomelabel"
+        android:onClick="signupbtn0"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="#ff96c5"
+        android:text="Sign up"
+        android:textStyle="bold"
+        android:layout_marginTop="270dp"
+        />
+
+    <Button
+        android:id="@+id/signinbtn0"
+        android:layout_width="2in"
+        android:layout_height="60dp"
+        android:layout_below="@id/signupbtn0"
+        android:layout_marginTop="18dp"
+        android:backgroundTint="#ff96c5"
+        android:onClick="signinbtn0"
+        android:text="Or sign in by existing account"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold" />
+
+</RelativeLayout>

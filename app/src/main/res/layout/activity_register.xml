@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wellogre"
+    tools:context=".Register_act">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/signuplabel"
+        android:layout_marginTop="40dp"
+        android:textSize="60sp"
+        android:text="SIGN UP"
+        android:textStyle="bold"
+        android:fontFamily="@font/font"
+        android:gravity="center"
+        android:textColor="#00ffff"/>
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="360dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="50dp"
+        android:drawableLeft="@drawable/baseline_account_box_24"
+        android:drawablePadding="12dp"
+        android:layout_below="@id/signuplabel"
+        android:hint="Username"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:backgroundTint="@color/white"/>
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="360dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/username"
+        android:drawableLeft="@drawable/baseline_password_24"
+        android:drawablePadding="12dp"
+        android:hint="Password"
+        android:layout_centerHorizontal="true"
+        android:textColorHint="@color/white"
+        android:backgroundTint="@color/white"/>
+
+    <EditText
+        android:id="@+id/repassword"
+        android:layout_width="360dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/password"
+        android:drawableLeft="@drawable/baseline_password_24"
+        android:drawablePadding="12dp"
+        android:hint="Re-password"
+        android:layout_centerHorizontal="true"
+        android:textColorHint="@color/white"
+        android:backgroundTint="@color/white"/>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:id="@+id/signupbtn"
+        android:layout_below="@id/repassword"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="#ff96c5"
+        android:text="Sign up"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        />
+
+    <Button
+        android:layout_width="2in"
+        android:layout_height="60dp"
+        android:id="@+id/signinbtn"
+        android:layout_below="@id/signupbtn"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="#ff96c5"
+        android:text="Or sign in by existing account"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        />
+
+</RelativeLayout>
